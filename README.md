@@ -4,14 +4,13 @@
 [![wercker status](https://app.wercker.com/status/fcb6fb7398629e934ae0538737021d14/s/master "wercker status")](https://app.wercker.com/project/byKey/fcb6fb7398629e934ae0538737021d14)
 [![API Document](https://img.shields.io/badge/api-v0-blue.svg)](https://lambstatus.github.io/apidocs/)
 
-*The project is now in the maintenance mode. Only critical bugs will be fixed, and there won’t be any more feature development. Also, the project will be archived after the end of February 2020. So please consider moving to other projects like [Cachet](https://github.com/CachetHQ/Cachet).*
+* The original project is now in archived. This fork continues to be developed.
 
 LambStatus is the serverless status page system. [See our website](https://lambstatus.github.io/) for features.
 
-## Demo
+## Example Page
 
-* [Status page](https://demo-status.lambstatus.org): the page to tell your service's status to your users
-* [Admin page](https://demo-admin.lambstatus.org): the page to change your service's status
+* [Status page](https://status.engineerica.com): the page to tell your service's status to your users
 
 ## Get Started
 
