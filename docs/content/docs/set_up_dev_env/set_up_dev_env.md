@@ -18,11 +18,28 @@ This page describes how to set up the development environment. Also, the project
 * Node.js (v10.16.3)
 * AWS CLI
 
+#### Additional Prerequisites for Windows 10
+
+* Download Python2 (https://www.python.org/downloads/) and install it.
+* Set the correct PATH environment variable, make sure `python2` is found.
+* In an elavated command prompt or PowerShell, run:
+`npm install --global --production windows-build-tools`
+* Install the Git Bash to run commands. Also, after cloning the repository, make sure `*.sh` and the `.env` files are using LF line endings and not CRLF (you can change this in VSCode) 
+* Use Git Bash to execute all commands. For npm commands, look for the command definition in packages.json and run it with 'sh' in front. For example, instead of:
+  
+  ```npm run cloudformation:update```
+
+  run:
+
+  ```sh cloudformation/bin/stack.sh update```
+
+
 #### Create a CloudFormation stack
 
 1. Clone the repository and go to the cloned directory
 
 `git clone https://github.com/ks888/LambStatus && cd LambStatus`
+
 
 2. Install all dependencies
 
