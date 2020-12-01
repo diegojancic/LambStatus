@@ -30,7 +30,7 @@ This page describes how to set up the development environment. Also, the project
   ```npm run cloudformation:update```
 
   run:
-  
+
   ```sh cloudformation/bin/stack.sh update```
 
 
@@ -41,7 +41,7 @@ This page describes how to set up the development environment. Also, the project
 `git clone https://github.com/ks888/LambStatus && cd LambStatus`
 
 
-1. Install all dependencies
+2. Install all dependencies
 
 `npm run install`
 
